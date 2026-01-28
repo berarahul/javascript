@@ -43,3 +43,31 @@ const myfun= function(){
 }
 
 console.log(typeof bigNumber,outsideTemp,myobj,myfun)
+
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive), Heap(Non-Primitive)
+
+let myYoutubename="@Codemasti";
+
+let anotherName=myYoutubename;
+anotherName='kalponix'
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+let userOne={
+
+    email: "user@gmail.com",
+    upi:"user@ybl"
+}
+
+
+let userTwo=userOne;
+userTwo.email='rahulbera008@gmail.com'
+console.log(userOne.email);
+console.log(userTwo.email);
