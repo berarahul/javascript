@@ -1,1 +1,1 @@
-Object.freeze(jsUser)
+console.log(regularUser.fullname?.userfullname.firstname);
